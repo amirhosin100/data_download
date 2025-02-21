@@ -1,7 +1,7 @@
 from tkinter import *
 
 class main_screen :
-  	screen = Tk()
+	screen = Tk()
 
   	def run(self):
 		self.screen.mainloop()
