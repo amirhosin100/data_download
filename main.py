@@ -1,11 +1,12 @@
 from tkinter import *
 
-class main_screen :
-	screen = Tk()
+class App :
+    screen = Tk()
 
-  	def run(self):
-		self.screen.mainloop()
+    def run(self):
+        mainloop()
 
-if __main__ == "__main__" :
-	play = main_screen()
+if __name__ == "__main__" :
+    play = App()
+    play.run()
 
